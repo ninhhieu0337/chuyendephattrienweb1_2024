@@ -1,0 +1,159 @@
+.container-3025 {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+    h1 {
+        color: #343B83;
+        font-size: 39px;
+        font-family: 'Lexend', sans-serif;
+        font-weight: bold;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .swiper {
+        overflow: visible;
+        overflow: hidden;
+
+        .swiper-slide {
+            overflow: visible;
+            position: relative;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            text-align: center;
+            position: relative;
+            border: 1px solid rgb(227, 232, 237);
+            margin-top: 100px;
+
+            .avatar {
+                position: absolute;
+                top: -60px;
+                left: 50%;
+                transform: translateX(-50%);
+                img {
+                    border-radius: 50%;
+                    width: 100px;
+                    height: 100px;
+                    transition: border 0.7s ease;
+                    border: 10px solid transparent;
+                }
+            }
+
+            h3 {
+                color: #39c0ed;
+                font-size: 1.2em;
+                margin-top: 100px;
+            }
+
+            p {
+                color: #666;
+                font-size: 0.9em;
+                margin: 20px 0;
+                margin-bottom: 10%;
+            }
+
+            .user-info {
+                padding: 5px;
+                background-color: transparent;
+                transition: background-color 1s ease;
+                display: flex;
+
+                .user-name {
+                    flex: 1;
+
+                    h6 {
+                        position: absolute;
+                        margin: 7% 0 50% 0;
+                        font-weight: bold;
+                        font-size: 1em;
+                    }
+
+                    p {
+                        margin-top: 60px;
+                        margin-right: 75%;
+                        color: #888;
+                        font-size: 0.9em;
+                    }
+                }
+
+                .rating {
+                    position: absolute;
+                    margin: 5% 0 0 60%;
+                    flex: 1;
+
+                    span {
+                        color: #39c0ed;
+                        font-size: 1.5em;
+                    }
+                }
+
+
+            }
+
+            &:hover {
+                .user-info {
+                    background-color: #20354a;
+                    color: white;
+                }
+
+                .avatar img {
+                    border: 10px solid #20354a;
+                }
+
+                .user-info .user-name,
+                .user-info .user-location {
+                    color: white;
+                }
+
+                .rating span {
+                    color: #39c0ed;
+                }
+            }
+        }
+
+
+
+    }
+
+    .swiper-button-prev {
+        position: absolute;
+        left: 125px;
+        color: #e8f4f3;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgb(216, 230, 230);
+        border-radius: 2px;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .swiper-button-next {
+        position: absolute;
+        right: 125px;
+        color: #e8f4f3;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgb(216, 230, 230);
+        border-radius: 2px;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .swiper-button-next:hover,
+    .swiper-button-prev:hover {
+        color: white;
+        background-color: rgb(194, 194, 245);
+        transform: scale(1.1);
+    }
+}

@@ -1,0 +1,132 @@
+.container-3025 {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container-3025 h1 {
+  color: #343B83;
+  font-size: 39px;
+  font-family: 'Lexend', sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+}
+.container-3025 .swiper {
+  overflow: visible;
+  overflow: hidden;
+}
+.container-3025 .swiper .swiper-slide {
+  overflow: visible;
+  position: relative;
+}
+.container-3025 .swiper .card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-align: center;
+  position: relative;
+  border: 1px solid #e3e8ed;
+  margin-top: 100px;
+}
+.container-3025 .swiper .card .avatar {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container-3025 .swiper .card .avatar img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  transition: border 0.7s ease;
+  border: 10px solid transparent;
+}
+.container-3025 .swiper .card h3 {
+  color: #39c0ed;
+  font-size: 1.2em;
+  margin-top: 100px;
+}
+.container-3025 .swiper .card p {
+  color: #666;
+  font-size: 0.9em;
+  margin: 20px 0;
+  margin-bottom: 10%;
+}
+.container-3025 .swiper .card .user-info {
+  padding: 5px;
+  background-color: transparent;
+  transition: background-color 1s ease;
+  display: flex;
+}
+.container-3025 .swiper .card .user-info .user-name {
+  flex: 1;
+}
+.container-3025 .swiper .card .user-info .user-name h6 {
+  position: absolute;
+  margin: 7% 0 50% 0;
+  font-weight: bold;
+  font-size: 1em;
+}
+.container-3025 .swiper .card .user-info .user-name p {
+  margin-top: 60px;
+  margin-right: 75%;
+  color: #888;
+  font-size: 0.9em;
+}
+.container-3025 .swiper .card .user-info .rating {
+  position: absolute;
+  margin: 5% 0 0 60%;
+  flex: 1;
+}
+.container-3025 .swiper .card .user-info .rating span {
+  color: #39c0ed;
+  font-size: 1.5em;
+}
+.container-3025 .swiper .card:hover .user-info {
+  background-color: #20354a;
+  color: white;
+}
+.container-3025 .swiper .card:hover .avatar img {
+  border: 10px solid #20354a;
+}
+.container-3025 .swiper .card:hover .user-info .user-name,
+.container-3025 .swiper .card:hover .user-info .user-location {
+  color: white;
+}
+.container-3025 .swiper .card:hover .rating span {
+  color: #39c0ed;
+}
+.container-3025 .swiper-button-prev {
+  position: absolute;
+  left: 125px;
+  color: #e8f4f3;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #d8e6e6;
+  border-radius: 2px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.container-3025 .swiper-button-next {
+  position: absolute;
+  right: 125px;
+  color: #e8f4f3;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #d8e6e6;
+  border-radius: 2px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.container-3025 .swiper-button-next:hover,
+.container-3025 .swiper-button-prev:hover {
+  color: white;
+  background-color: #c2c2f5;
+  transform: scale(1.1);
+}
